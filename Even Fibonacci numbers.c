@@ -8,8 +8,8 @@ int main() {
         x=y;
         y=sum;
         if (sum%2==0)
-            evensum+=sum;
+            evennumbersum+=sum;
     }
-    printf("%d \n",evensum);
+    printf("%d \n",evennumbersum);
     return 0;
 }
