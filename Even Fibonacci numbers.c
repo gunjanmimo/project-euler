@@ -2,7 +2,7 @@
 int main() 
 {
     int x=1,y=2,sum,limit;    // declare variable.
-    int evensum=2;            // declare variable. 
+    int evensum=2;            
     printf("Enter Limit: ");  
     scanf("%d",&limit);
     while( (x+y)<limit )     // using while loop.
@@ -11,8 +11,8 @@ int main()
         x=y;
         y=sum;
         if (sum%2==0)
-        evensum+=sum;
+             evensum+=sum;
     }
-    printf("%d \n",evensum); // for print final output.
+    printf("%d \n",evensum); 
     return 0;
 }
